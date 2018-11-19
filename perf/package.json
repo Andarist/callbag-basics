@@ -13,6 +13,7 @@
     "fold": "node ./fold",
     "flatten": "node ./flatten",
     "dataflow": "node ./dataflow",
+    "prestart": "npm run build --prefix ..",
     "start": "npm-run-all filter-map-reduce merge combine flatten fold dataflow flattenConcurrently filter-map-fusion"
   },
   "dependencies": {

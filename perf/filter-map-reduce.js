@@ -1,5 +1,5 @@
 var Benchmark = require('benchmark');
-var callbag = require('../index');
+var callbag = require('..');
 var xs = require('xstream').default;
 var most = require('most');
 var rx = require('rx');
